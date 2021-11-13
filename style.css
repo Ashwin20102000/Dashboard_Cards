@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(219, 214, 214));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 1rem;
+  font-weight: 700;
+  font-family:Ubuntu;
+  letter-spacing: 0.6679px;
+}
+.dashboard {
+  margin: 1rem;
+  display: grid;
+  gap: 2rem;
+  color: #fff;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+}
+.card {
+  height: 8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0px;
+  align-items: center;
+  border-radius: 25px;
+}
+.card:hover,
+h1 {
+  transform: scale(1.009);
+  transition: 0.5s ease-in-out;
+  box-shadow: 5px 5px 5px rgb(156, 150, 150);
+}
+.card.color1 {
+  background: linear-gradient(150deg, #300065, #686262 100%);
+}
+.card.color2 {
+  background: linear-gradient(150deg, #39ef74, #4600f1 100%);
+}
+.card.color3 {
+  background: linear-gradient(150deg, #4d80e4, #121212 100%);
+}
+.card.color4 {
+  background: linear-gradient(150deg, #62d2a2, #121212 100%);
+}
+.card.color5 {
+  background: linear-gradient(150deg, #535554, #020202 100%);
+}
+.card.color6 {
+  background: linear-gradient(150deg, #b47efa, #000000 100%);
+}
+.card.color7 {
+  background: linear-gradient(150deg, #f701d6, #b49e9e 100%);
+}
+.card.color8 {
+  background: linear-gradient(180deg, #8fbcd1, #121212 100%);
+}
+.card.color9 {
+  background: linear-gradient(180deg, #8786a7, #121212 100%);
+}
+.card.color10 {
+  background: linear-gradient(180deg, #6dcf12, #000000 100%);
+}
